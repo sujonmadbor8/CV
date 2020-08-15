@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #92A97B ;
+}
+.contain{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    padding: 20px;
+
+}
+#profile_image{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: cornsilk solid 3px;
+    padding: 5px;
+    float: left;
+}
+.header_bio{
+    float: left;
+    padding: 32px;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#FFC300;
+}
+.header_cont{
+    padding: 35px;
+    float: right;
+}
+.header_cont p a{
+    color:  #FDFEFE;
+    text-decoration: none;
+}
+.header_cont p a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.div_clear{
+    clear: both;
+}
+hr{
+    max-width: 100%;
+    color: orange;
+    margin: 20px auto;
+    border: orange solid 3px;
+    border-bottom: none;
+}
+.left_div{
+    width: 30%;
+    float: left;
+    text-align: justify;
+}
+.right_div{
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+.common_hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.right_div_right{
+    float: left;
+    width: 45%;
+    margin:auto;
+    text-align: justify;
+}
+.right_div_left{
+    float: right;
+    width: 45%;
+    margin: auto;
+}
+.link_section{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.link_section a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.link_section a:hover{
+    color: tomato;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.link_section p{
+        color: white;
+        margin-top: 20px;
+}
